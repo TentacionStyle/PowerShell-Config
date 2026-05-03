@@ -58,4 +58,4 @@ Este script ha sido testeado para los siguientes entornos:
 Para instalar todo automáticamente (fuentes, módulos y configuración), abre PowerShell como **Administrador** y ejecuta el siguiente comando:
 
 ```powershell
-Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.SecurityProtocolType]::Tls12; iwr -useb [https://raw.githubusercontent.com/TentacionStyle/PowerShell-Config/main/install.ps1](https://raw.githubusercontent.com/TentacionStyle/PowerShell-Config/main/install.ps1) | iex
+Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.SecurityProtocolType]::Tls12; iwr -useb https://raw.githubusercontent.com/TentacionStyle/PowerShell-Config/main/install.ps1 | iex
